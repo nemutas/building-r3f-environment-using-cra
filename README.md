@@ -2,7 +2,7 @@
 This page summarizes how to build the R3F（React Three Fiber） environment using CRA（Create React App）.
 
 # CRA（Create React App）
-your project folder.
+in your project folder.
 ```
 create-react-app . --template typescript --use-npm
 ```

@@ -61,6 +61,13 @@ Add the following settings to package.json.
 },
 ```
 
+# Without SourceMap
+```.json:package.json
+"scripts": {
+	"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build"
+},
+```
+
 To deploy, execute the following command.
 ```
 npm run build

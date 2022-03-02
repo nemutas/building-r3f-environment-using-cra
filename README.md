@@ -61,18 +61,18 @@ Add the following settings to package.json.
 },
 ```
 
+To deploy, execute the following command.
+```
+npm run build
+```
+※ Note: A repository must have been created in order to deploy.
+
 # Without SourceMap
 ```.json:package.json
 "scripts": {
 	"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build"
 },
 ```
-
-To deploy, execute the following command.
-```
-npm run build
-```
-※ Note: A repository must have been created in order to deploy.
 
 # Styling
 [@emotion/css](https://emotion.sh/docs/introduction) is a library for writing css using CSS in JS notation.<br>

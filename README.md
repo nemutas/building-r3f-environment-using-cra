@@ -68,6 +68,7 @@ npm run build
 ※ Note: A repository must have been created in order to deploy.
 
 # Without SourceMap
+Configuration to not include sourcemap in the build folder.
 ```.json:package.json
 "scripts": {
 	"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build"

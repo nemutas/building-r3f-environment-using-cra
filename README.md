@@ -63,7 +63,7 @@ Add the following settings to package.json.
 
 To deploy, execute the following command.
 ```
-npm run build
+npm run deploy
 ```
 ※ Note: A repository must have been created in order to deploy.
 
